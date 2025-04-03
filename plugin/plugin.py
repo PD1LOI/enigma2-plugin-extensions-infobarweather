@@ -279,7 +279,7 @@ class InfoBarWeather(Screen, InfoBarExtra):
 		<!--<widget name="secondInfoBarBackground" position="0,0" size="%(size)s" zPosition="-1" alphatest="off" pixmap="" />-->
 
 		<widget name="notconfigured" position="%(notconfiguredXpos)s,%(notconfiguredYpos)s" size="1096,45" borderWidth="1" valign="center" halign="center" foregroundColor="#00B6B6B6" backgroundColor="#18101214" font="Regular; 26" transparent="1" />
-		<widget name="regio" position="%(regioXpos)s,%(regioYpos)s" size="337,45" borderWidth="1" valign="center" halign="right" foregroundColor="#00B6B6B6" backgroundColor="#18101214" font="Regular; 26" transparent="1" />
+		<widget name="regio" position="%(regioXpos)s,%(regioYpos)s" size="337,45" borderWidth="1" valign="center" halign="right" foregroundColor="green" backgroundColor="#18101214" font="Regular; 26" transparent="1" />
 		<widget name="time" position="%(timeXpos)s,%(timeYpos)s" size="70,45" borderWidth="1" valign="center" halign="left" foregroundColor="#00B6B6B6" backgroundColor="#18101214" font="Regular; 26" transparent="1" />
 		<widget name="sunrise" position="%(sunriseXpos)s,%(sunriseYpos)s" size="80,45" borderWidth="1" valign="center" halign="right" foregroundColor="#00B6B6B6" backgroundColor="#18101214" font="Regular; 26" transparent="1" />
 		<widget name="sunrisesetPixmap" position="%(sunrisesetPixmapXpos)s,%(sunrisesetPixmapYpos)s" size="50,30" alphatest="blend" pixmap="%(imageDir)s/sunriseset.png" />
